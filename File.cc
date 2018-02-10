@@ -83,6 +83,9 @@ int Page :: Append (Record *addMe) {
 	return 1;	
 }
 
+int Page :: totalrecords() {
+	return numRecs;
+}
 
 void Page :: ToBinary (char *bits) {
 
@@ -283,4 +286,10 @@ int File :: Close () {
 	
 }
 
+off_t File :: Getlast(){
 
+if(!curLength)
+return 0;
+else
+return curLength-1;
+}
