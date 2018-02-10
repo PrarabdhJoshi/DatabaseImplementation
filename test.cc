@@ -7,6 +7,11 @@ const char *dbfile_dir ="/cise/homes/prarabdh/tmp/dbfile/";///cise/t/mp/yagna/";
 const char *tpch_dir ="/cise/homes/prarabdh/tpch-dbgen/";//tmp/dbi_sp11/DATA/10M/"; // dir where dbgen tpch files (extension *.tbl) can be found
 const char *catalog_path ="/cise/homes/prarabdh/dbi/P1/catalog"; // full path of the catalog file
 
+//Local directories 
+// const char *dbfile_dir ="/home/pete/tmp/dbfile";///cise/t/mp/yagna/"; // dir where binary heap files should be stored
+// const char *tpch_dir ="/home/pete/git/tpch-dbgen";//tmp/dbi_sp11/DATA/10M/"; // dir where dbgen tpch files (extension *.tbl) can be found
+// const char *catalog_path ="/home/pete/DatabaseImplementation/P1/catalog"; // full path of the catalog file
+
 using namespace std;
 
 relation *rel;
